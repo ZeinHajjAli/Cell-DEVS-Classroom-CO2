@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Models>
+	<Model name="classroom_barrier" type="coupled" description="coupled cell-DEVS model for classroom with barriers">
+		<Files>
+			<File name="classroom_barrier.ma" type="MA" location="/classroom_barrier/"/>
+			<File name="classroom_barrier.val" type="VAL" location="/classroom_barrier/"/>
+			<File name="classroom_barrier.pal" type="PAL" location="/classroom_barrier/"/>
+			<File name="classroom_barrier.log" type="LOG" location="/classroom_barrier/"/>
+			<File name="run_classroom" type="SH" location="/classroom_barrier/"/>
+			<File name="visualization_classroom_barrier.webm" type="WEBM" location="/classroom_barrier/"/>
+			<File name="layout.png" type="PNG" location="/classroom_barrier/screenshots/"/>
+			<File name="barrier_end.png" type="PNG" location="/classroom_barrier/screenshots/"/>
+			<File name="barrier_middle.png" type="PNG" location="/classroom_barrier/screenshots/"/>
+			<File name="barrier_start.png" type="PNG" location="/classroom_barrier/screenshots/"/>
+		</Files>
+	</Model>
+
+	<Model name="classroom_noBarrier" type="coupled" description="coupled cell-DEVS model for classroom without barriers">
+		<Files>
+			<File name="classroom_nobarrier.ma" type="MA" location="/classroom_noBarrier/"/>
+			<File name="classroom_nobarrier.val" type="VAL" location="/classroom_noBarrier/"/>
+			<File name="classroom_nobarrier.pal" type="PAL" location="/classroom_noBarrier/"/>
+			<File name="classroom_nobarrier.log" type="LOG" location="/classroom_noBarrier/"/>
+			<File name="run_classroom" type="SH" location="/classroom_noBarrier/"/>
+			<File name="visualization_classroom_noBarrier.webm" type="WEBM" location="/classroom_noBarrier/"/>
+			<File name="layout.png" type="PNG" location="/classroom_noBarrier/screenshots/"/>
+			<File name="noBarrier_end.png" type="PNG" location="/classroom_noBarrier/screenshots/"/>
+			<File name="noBarrier_middle.png" type="PNG" location="/classroom_noBarrier/screenshots/"/>
+			<File name="noBarrier_start.png" type="PNG" location="/classroom_noBarrier/screenshots/"/>
+		</Files>
+	</Model>
+
+	<Model name="classroom_smallerbarrier" type="coupled" description="coupled cell-DEVS model for classroom with adjusted barriers">
+		<Files>
+			<File name="classroom_smallerbarrier.ma" type="MA" location="/classroom_smallerBarrier/"/>
+			<File name="classroom_smallerbarrier.val" type="VAL" location="/classroom_smallerBarrier/"/>
+			<File name="classroom_smallerbarrier.pal" type="PAL" location="/classroom_smallerBarrier/"/>
+			<File name="classroom_smallerbarrier.log" type="LOG" location="/classroom_smallerBarrier/"/>
+			<File name="run_classroom" type="SH" location="/classroom_smallerBarrier/"/>
+			<File name="visualization_classroom_smallerBarrier.webm" type="WEBM" location="/classroom_smallerBarrier/"/>
+			<File name="layout.png" type="PNG" location="/classroom_smallerBarrier/screenshots/"/>
+			<File name="smallerBarrier_end.png" type="PNG" location="/classroom_smallerBarrier/screenshots/"/>
+			<File name="smallerBarrier_middle.png" type="PNG" location="/classroom_smallerBarrier/screenshots/"/>
+			<File name="smallerBarrier_start.png" type="PNG" location="/classroom_smallerBarrier/screenshots/"/>
+		</Files>
+	</Model>
+</Models>
