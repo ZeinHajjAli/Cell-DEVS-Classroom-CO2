@@ -44,4 +44,35 @@
 			<File name="smallerBarrier_start.png" type="PNG" location="/classroom_smallerBarrier/screenshots/"/>
 		</Files>
 	</Model>
+	
+	<Model name="classroom_fewerstudents" type="coupled" description="coupled cell-DEVS model for classroom with fewer rows of students">
+		<Files>
+			<File name="classroom_fewerstudents.ma" type="MA" location="/classroom_fewerstudents/"/>
+			<File name="classroom_fewerstudents.val" type="VAL" location="/classroom_fewerStudents/"/>
+			<File name="classroom_fewerstudents.pal" type="PAL" location="/classroom_fewerStudents/"/>
+			<File name="classroom_fewerstudents.log" type="LOG" location="/classroom_fewerStudents/"/>
+			<File name="run_classroom" type="SH" location="/classroom_fewerstudents/"/>
+			<File name="visualization_classroom_fewerStudents.webm" type="WEBM" location="/classroom_fewerStudents/"/>
+			<File name="layout.png" type="PNG" location="/classroom_fewerStudents/screenshots/"/>
+			<File name="fewerStudents_end.png" type="PNG" location="/classroom_fewerStudents/screenshots/"/>
+			<File name="fewerStudents_middle.png" type="PNG" location="/classroom_fewerStudents/screenshots/"/>
+			<File name="fewerStudents_start.png" type="PNG" location="/classroom_fewerStudents/screenshots/"/>
+		</Files>
+	</Model>
+
+	<Model name="classroom_staggeredstudents" type="coupled" description="coupled cell-DEVS model for classroom with students in a staggered pattern">
+		<Files>
+			<File name="classroom_staggeredstudents.ma" type="MA" location="/classroom_staggeredStudents/"/>
+			<File name="classroom_staggeredstudents.val" type="VAL" location="/classroom_staggeredStudents/"/>
+			<File name="classroom_staggeredstudents.pal" type="PAL" location="/classroom_staggeredStudents/"/>
+			<File name="classroom_staggeredstudents.log" type="LOG" location="/classroom_staggeredStudents/"/>
+			<File name="run_classroom" type="SH" location="/classroom_staggeredStudents/"/>
+			<File name="visualization_classroom_staggeredStudents.webm" type="WEBM" location="/classroom_staggeredStudents/"/>
+			<File name="layout.png" type="PNG" location="/classroom_staggeredStudents/screenshots/"/>
+			<File name="staggeredStudents_end.png" type="PNG" location="/classroom_staggeredStudents/screenshots/"/>
+			<File name="staggeredStudents_middle.png" type="PNG" location="/classroom_staggeredStudents/screenshots/"/>
+			<File name="staggeredStudents_start.png" type="PNG" location="/classroom_staggeredStudents/screenshots/"/>
+		</Files>
+	</Model>
+
 </Models>
